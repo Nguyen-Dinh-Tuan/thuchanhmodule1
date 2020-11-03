@@ -3,23 +3,24 @@ class Animal {
         this.name = name;
         this.weight = weight;
     }
-
     setName(name) {
-        return this.name;
+        this.name = name;
     }
-
-    setWight(weight) {
-        return this.weight;
+    setWeight(weight) {
+        this.weight = weight;
     }
     getName() {
         return this.name;
     }
-
-    getWight() {
+    getWeight() {
         return this.weight;
     }
-
     toString() {
         return "name=" + this.name + ",weight=" + this.weight;
     }
 }
+
+
+
+
+
