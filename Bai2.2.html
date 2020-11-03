@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkInArr(y, arr) {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === y) {
+                return " So " + y + " nam trong mang";
+            }
+        }
+        return " So " + y + " khong nam trong mang";
+    }
+
+    let arr = [1, 2, 3, 5, 19, 20, 22, 30];
+    let y = +prompt("Nhap so nguyen bat ky.");
+    document.write(checkInArr(y, arr));
+</script>
+</body>
+</html>
